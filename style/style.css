@@ -104,3 +104,22 @@ a {
 .rev {
   flex-direction: row-reverse;
 }
+
+.graphic-design-container {
+  display: flex;
+}
+
+.graphic-design-container div {
+  flex: 1;
+  max-height: 25rem;
+  border: 1px solid magenta;
+  padding-top: 18rem;
+}
+
+.graphic-text {
+  padding-bottom: 3rem;
+  text-align: center;
+}
+
+.graphic-text p {
+}
