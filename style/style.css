@@ -16,16 +16,29 @@ a {
 #nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(98, 98, 190);
+  background-color: rgb(89, 89, 231);
+  align-items: center;
+  padding: 1rem 0.8rem;
+}
+
+#nav img {
+  height: 20px;
 }
 
 #nav-link-container {
   display: flex;
+  align-items: center;
   list-style: none;
-  gap: 24px;
+  gap: 1.5rem;
 }
 
 #nav-link-container a {
   color: white;
   font-weight: 400;
+}
+
+#nav-link-container button {
+  padding: 12px 20px;
+  border-radius: 32px;
+  border: 0;
 }
