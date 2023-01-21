@@ -111,15 +111,40 @@ a {
 
 .graphic-design-container div {
   flex: 1;
-  max-height: 25rem;
-  border: 1px solid magenta;
+  max-height: 26rem;
   padding-top: 18rem;
+}
+
+#first-design {
+  background-image: url(../images/desktop/image-graphic-design.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#second-design {
+  background-image: url(../images/desktop/image-photography.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .graphic-text {
   padding-bottom: 3rem;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  color: teal;
+}
+
+.graphic-text h3 {
+  font-size: 2rem;
+  font-weight: 700;
 }
 
 .graphic-text p {
+  width: 55%;
+  text-align: center;
+  font-weight: 600;
 }
