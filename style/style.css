@@ -148,3 +148,40 @@ a {
   text-align: center;
   font-weight: 600;
 }
+
+#feedback-container {
+}
+
+#feedback-container h3 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: #c4c4c4;
+  text-align: center;
+  padding-top: 6rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+  margin-bottom: 6rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.card img {
+  height: 3.75rem;
+  width: 3.75rem;
+  border-radius: 50%;
+}
+
+.card > p {
+  width: 80%;
+}
