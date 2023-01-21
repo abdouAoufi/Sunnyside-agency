@@ -16,9 +16,9 @@ a {
 #nav {
   display: flex;
   justify-content: space-between;
-  background-color: rgb(89, 89, 231);
+  background-color: rgb(70, 192, 252);
   align-items: center;
-  padding: 1rem 0.8rem;
+  padding: 1rem;
 }
 
 #nav img {
@@ -41,4 +41,66 @@ a {
   padding: 12px 20px;
   border-radius: 32px;
   border: 0;
+}
+
+#main {
+  background-color: rgb(70, 192, 252);
+  height: 28.125rem;
+}
+
+#main h1 {
+  text-align: center;
+  padding-top: 3rem;
+  color: white;
+  font-size: 3.25rem;
+  text-transform: uppercase;
+  letter-spacing: 0.7rem;
+}
+
+.info-section {
+  display: flex;
+  align-items: center;
+}
+
+.info-section img {
+  width: 100%;
+}
+
+.info-section-text {
+  flex: 1;
+}
+
+.info-section-text > div {
+  width: 60%;
+  padding-left: 5.5rem;
+}
+
+.info-section-text h3 {
+  font-weight: 800;
+  font-size: 2.5rem;
+}
+
+.info-section-text p {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.info-section-img {
+  flex: 1;
+}
+
+.learn-btn {
+  color: black;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 800;
+  text-shadow: 10px 10px 8px #e2d81f;
+}
+
+.red-shadow {
+  text-shadow: 10px 10px 8px #bd2f55;
+}
+
+.rev {
+  flex-direction: row-reverse;
 }
