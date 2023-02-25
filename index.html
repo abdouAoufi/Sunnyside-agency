@@ -26,6 +26,14 @@
       </ul>
       <img id="menu" src="./images/icon-hamburger.svg" alt="" />
     </nav>
+    <div id="mobile-menu">
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><button>Contact</button></li>
+      </ul>
+    </div>
     <main>
       <header>
         <h1>We are creatives</h1>
@@ -163,5 +171,17 @@
         <li><img src="./images/icon-pinterest.svg" alt="" /></li>
       </ul>
     </footer>
+
+    <script>
+      const mobileMenuButton = document.getElementById("menu");
+      const mobileMenu = document.getElementById("mobile-menu");
+      mobileMenuButton.addEventListener("click", function () {
+        if (mobileMenu.style.display === "none") {
+          mobileMenu.style.display = "flex";
+        } else {
+          mobileMenu.style.display = "none";
+        }
+      });
+    </script>
   </body>
 </html>
