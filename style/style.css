@@ -13,7 +13,7 @@ a {
   text-decoration: none;
 }
 
-#nav {
+nav {
   display: flex;
   justify-content: space-between;
   background-color: rgb(70, 192, 252);
@@ -21,7 +21,7 @@ a {
   padding: 1rem;
 }
 
-#nav img {
+nav img {
   height: 20px;
 }
 
@@ -43,12 +43,12 @@ a {
   border: 0;
 }
 
-#main {
+header {
   background-color: rgb(70, 192, 252);
   height: 28.125rem;
 }
 
-#main h1 {
+header h1 {
   text-align: center;
   padding-top: 3rem;
   color: white;
